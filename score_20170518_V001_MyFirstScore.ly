@@ -45,12 +45,12 @@ pianoPartCleff = {
 
 \score {
   \relative c'
-  <<
-    \pianoPartTreble
-  <<
-  >>
-    \pianoPartCleff
-  >>
+  {
+      <<
+        \pianoPartTreble
+        \pianoPartCleff
+      >>
+  }
   \layout {}
   \midi {midiInstrument = "piano"}
 }
