@@ -1,0 +1,8 @@
+= scores
+
+Musical scores, created with lilypond.
+
+== license
+
+I like sharing.
+See LICENSE.txt file.
