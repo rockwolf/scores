@@ -37,6 +37,13 @@ global = {
        \pianoTrebleE
        \pianoTrebleF
        \pianoTrebleG
+       \pianoTrebleH
+       \pianoTrebleI
+       \pianoTrebleJ
+       \pianoTrebleK
+       \pianoTrebleL
+       \pianoTrebleM
+       \pianoTrebleN
     }
     \new Staff {
       \global
@@ -47,6 +54,13 @@ global = {
       \pianoBassE
       \pianoBassF
       \pianoBassG
+      \pianoBassH
+      \pianoBassI
+      \pianoBassJ
+      \pianoBassK
+      \pianoBassL
+      \pianoBassM
+      \pianoBassN
     }
   >>
   %\new PianoStaff <<

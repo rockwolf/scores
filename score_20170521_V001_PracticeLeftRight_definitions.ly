@@ -76,6 +76,60 @@ pianoTrebleH = {
     d2 c2 | % m27
   }
 }
+
+pianoTrebleI = {
+  \relative c' {
+    c4 c d d | % m28
+    e e d d | % m29
+    r1 | % m30
+    c4 d d2 | % m31
+  }
+}
+
+pianoTrebleJ = {
+  \relative c' {
+    c4 c d d | % m32
+    e e d d | % m33
+    r1 | % m34
+    c4 d d2 | % m35
+  }
+}
+
+pianoTrebleK = {
+  \relative c' {
+    r1 | % m36
+    r1 | % m37
+    r1 | % m38
+    r1 | % m39
+  }
+}
+  
+pianoTrebleL = {
+  \relative c' {
+    r1 | % m40
+    r1 | % m41
+    r1 | % m42
+    r1 | % m43
+  }
+}
+
+pianoTrebleM = {
+  \relative c' {
+    c2 d4 e4 | % m44
+    f2 e4 d4 | % m45
+    e d e f | % m46
+    e4 d4 c2 | % m47
+  }
+}
+
+pianoTrebleN = {
+  \relative c' {
+    r2 c4 d | % m48
+    r2 c4 d | % m49
+    e d e f | % m50
+    e d c2 | % m51
+  }
+}
 %------- /TREBLE -------
 
 %------- BASS -------
@@ -102,29 +156,29 @@ pianoBassB = {
 pianoBassC = {
   \clef bass
   \relative c' {
-    c4 d d c | % m8
-    c d d c | % m9
-    d c c d | % m10
-    d c c c | % m11
+    c4 b b c | % m8
+    c b b c | % m9
+    b c c b | % m10
+    b c c c | % m11
   }
 }
 
 pianoBassD = {
   \clef bass
   \relative c' {
-    c4 d d c | % m8
-    c d d c | % m9
-    d c d c | % m10
-    c d c c | % m11
+    c4 b b c | % m8
+    c b b c | % m9
+    b c b c | % m10
+    c b c c | % m11
   }
 }
 
 pianoBassE = {
   \clef bass
   \relative c' {
-    c4 d d c | % m12
+    c4 b b c | % m12
     r1 | % m13
-    d4 c d c | % m14
+    b4 c b c | % m14
     r1 | % m15
   }
 }
@@ -132,19 +186,19 @@ pianoBassE = {
 pianoBassF = {
   \clef bass
   \relative c' {
-    d4 c r4 r4 | % m16
-    d4 c r2 | % m17
-    r2 d4 c | % m18
-    r2 d4 c | % m19
+    b4 c r4 r4 | % m16
+    b4 c r2 | % m17
+    r2 b4 c | % m18
+    r2 b4 c | % m19
   }
 }
 
 pianoBassG = {
   \clef bass
   \relative c' {
-    c4 d4 d2 | % m20
+    c4 b4 d2 | % m20
     r1 | % m21
-    c4 d4 d4 c4 | % m22
+    c4 b4 b4 c4 | % m22
     r1 | % m23
   }
 }
@@ -152,10 +206,70 @@ pianoBassG = {
 pianoBassH = {
   \clef bass
   \relative c' {
-    c4 d d c | % m24
+    c4 b b c | % m24
     r1 | % m25
-    d2 c2 | % m26
-    r1| % m27
+    b2 c2 | % m26
+    r1 | % m27
+  }
+}
+
+pianoBassI = {
+  \clef bass
+  \relative c' {
+    r1 | % m28
+    r1 | % m29
+    c4 c b b | % m30
+    r1 | % m31
+  }
+}
+
+pianoBassJ = {
+  \clef bass
+  \relative c' {
+    r1 | % m32
+    r1 | % m33
+    c2 b2 | % m34
+    r1 | % m35
+  }
+}
+
+pianoBassK = {
+  \clef bass
+  \relative c' {
+    c4 c b b | % m36
+    a a b b | % m37
+    c c b b | % m38
+    a2 c2 | % m39
+  }
+}
+
+pianoBassL = {
+  \clef bass
+  \relative c' {
+    c4 c b b | % m40
+    a a b b | % m41
+    c2 b2 | % m42
+    a2 c2 | % m43
+  }
+}
+
+pianoBassM = {
+  \clef bass
+  \relative c' {
+    r1 | % m44
+    r1 | % m45
+    r1 | % m46
+    r1 | % m47
+  }
+}
+
+pianoBassN = {
+  \clef bass
+  \relative c' {
+    c4 b4 r2 | % m48
+    c4 b4 r2 | % m49
+    r1 | % m50
+    r1 | % m51
   }
 }
 %------- /BASS -------
