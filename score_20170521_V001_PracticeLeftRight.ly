@@ -28,6 +28,7 @@ global = {
 
 \score {
   \new PianoStaff <<
+    \set PianoStaff.instrumentName = #"Piano  "
     \new Staff {
       \global
        \pianoTrebleA
@@ -44,6 +45,12 @@ global = {
        \pianoTrebleL
        \pianoTrebleM
        \pianoTrebleN
+       \pianoTrebleO
+       \pianoTrebleP
+       \pianoTrebleQ
+       \pianoTrebleR
+       \pianoTrebleS
+       \pianoTrebleT
     }
     \new Staff {
       \global
@@ -61,12 +68,16 @@ global = {
       \pianoBassL
       \pianoBassM
       \pianoBassN
+      \pianoBassO
+      \pianoBassP
+      \pianoBassQ
+      \pianoBassR
+      \pianoBassS
+      \pianoBassT
     }
   >>
-  %\new PianoStaff <<
-  %  \new Staff \pianoTrebleB
-  %  \new Staff \pianoBassB
-  %>>
-  \layout {}
+  \layout {
+    %#(layout-set-staff-size 16)
+  }
   \midi {midiInstrument = "piano"}
 }
