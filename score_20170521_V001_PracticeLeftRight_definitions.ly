@@ -468,7 +468,7 @@ pianoBassW = {
     r1 | % m84
     r1 | % m85
     b4 c4 g4 a4 | % m86
-    f4 c4 r2 | % m87
+    f4 c'4 r2 | % m87
   }
 }
 
@@ -488,7 +488,7 @@ pianoBassY = {
     r1 | % m92
     r1 | % m93
     b4 c b g | % m94
-    f c a f | % m95
+    f c' a f | % m95
   }
 }
 
