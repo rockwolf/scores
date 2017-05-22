@@ -408,20 +408,20 @@ pianoBassT = {
 pianoBassU = {
   \clef bass
   \relative c' {
-    tbd | % m76
-    tbd | % m77
-    tbd | % m78
-    tbd | % m79
+    c4 b a g | % m76
+    f1 | % m77
+    g2 b4 c | % m78
+    f4 g b c | % m79
   }
 }
 
 pianoBassV = {
   \clef bass
   \relative c' {
-    tbd | % m80
-    tbd | % m81
-    tbd | % m82
-    tbd | % m83
+    c4 b a g | % m80
+    f1 | % m81
+    g2 b4 c | % m82
+    f4 g4 f2 | % m83
   }
 }
 %------- /BASS -------
