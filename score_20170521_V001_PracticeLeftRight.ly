@@ -4,7 +4,7 @@
 
 \header {
   dedication = "Dedicated to learning."
-  title = "Practice Left Right."
+  title = "Practice Left Right - part 1."
   subtitle = "Learning to use both hands."
   subsubtitle = "Left and right hand alternating."
   instrument = "Piano"
