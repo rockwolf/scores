@@ -205,8 +205,8 @@ pianoTrebleV = {
 
 pianoTrebleW = {
   \relative c' {
-    g4 f4 e4 g4 | % m84
-    c d f e | % m85
+    g'4 f4 e4 g4 | % m84
+    c, d f e | % m85
     r1 | % m86
     r2 g4 f4 | % m87
   }
@@ -223,7 +223,7 @@ pianoTrebleX = {
 
 pianoTrebleY = {
   \relative c' {
-    g4 e c g | % m92
+    g'4 e c g'| % m92
     e c f e| % m93
     r1 | % m94
     r1 | % m95
@@ -448,7 +448,7 @@ pianoBassU = {
     c4 b a g | % m76
     f1 | % m77
     g2 b4 c | % m78
-    f4 g b c | % m79
+    f,4 g b c | % m79
   }
 }
 
@@ -458,7 +458,7 @@ pianoBassV = {
     c4 b a g | % m80
     f1 | % m81
     g2 b4 c | % m82
-    f4 g4 f2 | % m83
+    f,4 g4 f2 | % m83
   }
 }
 
@@ -497,9 +497,9 @@ pianoBassZ = {
   \relative c' {
     g4 c r2 | % m96
     g4 a4 f2 | % m97
-    c4 b g c| % m98
+    c'4 b g c| % m98
     b4 g a2 | % m99
-    g4 | % m100
+    g1 | % m100
   }
 }
 %------- /BASS -------
