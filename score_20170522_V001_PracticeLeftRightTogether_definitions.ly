@@ -64,14 +64,14 @@ pianoTrebleG = {
     c'4 b,es a g | % m24
     b,es4 a g f | % m25
     r2 c'2 | % m26
-    f4 g a bes | % m27
+    f4 g a b,es | % m27
   }
 }
 
 pianoTrebleH = {
   \relative c' {
     c'4 b,es a b | % m28
-    bes4 a g f | % m29
+    b,es4 a g f | % m29
     r2 c'2 | % m30
     b,es4 a g2 | % m31
   }
@@ -144,7 +144,7 @@ pianoBassG = {
   \relative c' {
     g1 | % m24
     f1 | % m25
-    c4 bis a b | % m26
+    c4 b,es a b | % m26
     a2 g2 | % m27
   }
 }
@@ -154,7 +154,7 @@ pianoBassH = {
   \relative c' {
     c2 g2 | % m28
     g2 c2 | % m29
-    c4 bis a b | % m30
+    c4 b,es a b | % m30
     f1 | % m31
   }
 }

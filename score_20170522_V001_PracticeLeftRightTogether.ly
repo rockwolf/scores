@@ -24,7 +24,7 @@ global = {
   #(set-paper-size "a4")
 }
 
-\include "score_20170521_V001_PracticeLeftRight_definitions.ly"
+\include "score_20170522_V001_PracticeLeftRightTogether_definitions.ly"
 
 \score {
   \new PianoStaff <<
