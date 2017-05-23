@@ -32,10 +32,12 @@ global = {
     \new Staff {
       \global
        \pianoTrebleA
+       \pianoTrebleB
     }
     \new Staff {
       \global
       \pianoBassA
+      \pianoBassB
     }
   >>
   \layout {
