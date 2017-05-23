@@ -40,6 +40,24 @@ pianoTrebleD = {
     g1 | % m15
   }
 }
+
+pianoTrebleE = {
+  \relative c' {
+    c4 d e f | % m16
+    g4 f e d | % m17
+    e4 g f e | % m18
+    g4 f e d | % m19
+  }
+}
+
+pianoTrebleF = {
+  \relative c' {
+    c4 d e f | % m20
+    e4 f e d | % m21
+    c4 f e f | % m22
+    e2 d2 | % m23
+  }
+}
 %------- /TREBLE -------
 
 %------- BASS -------
@@ -80,6 +98,26 @@ pianoBassD = {
     a4 c a2 | % m13
     b4 c b a | % m14
     g4 a4 f2 | % m15
+  }
+}
+
+pianoBassE = {
+  \clef bass
+  \relative c' {
+    g1 | % m16
+    a1 | % m17
+    b1 | % m18
+    c1 | % m19
+  }
+}
+
+pianoBassF = {
+  \clef bass
+  \relative c' {
+    g1 | % m20
+    a1 | % m21
+    g1 | % m22
+    f1 | % m23
   }
 }
 %------- /BASS -------
