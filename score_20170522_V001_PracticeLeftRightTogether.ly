@@ -22,6 +22,7 @@ global = {
 
 \paper {
   #(set-paper-size "a4")
+  #(define bottom-margin (* 2 cm))
 }
 
 \include "score_20170522_V001_PracticeLeftRightTogether_definitions.ly"
@@ -38,7 +39,7 @@ global = {
        \pianoTrebleE
        \pianoTrebleF
        \pianoTrebleG
-       \pianoTrebleH
+       %{\pianoTrebleH%}
     }
     \new Staff {
       \global
@@ -46,8 +47,10 @@ global = {
       \pianoBassB
       \pianoBassC
       \pianoBassD
+      \pianoBassE
+      \pianoBassF
       \pianoBassG
-      \pianoBassH
+      %{\pianoBassH%}
     }
   >>
   \layout {
