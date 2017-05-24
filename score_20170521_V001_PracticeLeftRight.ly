@@ -22,6 +22,7 @@ global = {
 
 \paper {
   #(set-paper-size "a4")
+  #(define bottom-margin (* 2 cm))
 }
 
 \include "score_20170521_V001_PracticeLeftRight_definitions.ly"

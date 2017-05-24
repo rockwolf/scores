@@ -305,7 +305,7 @@ pianoBassF = {
 pianoBassG = {
   \clef bass
   \relative c' {
-    c4 b4 d2 | % m20
+    c4 b4 c2 | % m20
     r1 | % m21
     c4 b4 b4 c4 | % m22
     r1 | % m23
