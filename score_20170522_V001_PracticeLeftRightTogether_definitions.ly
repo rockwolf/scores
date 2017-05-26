@@ -94,6 +94,24 @@ pianoTrebleJ = {
     f1 | % m39
   }
 }
+
+pianoTrebleK = {
+  \relative c' {
+    c'4 bf a g | % m40
+    bf4 a g f | % m41
+    r2 c'2 | % m42
+    f,4 g a bf | % m43
+  }
+}
+
+%{pianoTrebleL = {
+  \relative c' {
+     | % m44
+     | % m45
+     | % m46
+     | % m47
+  }
+}%}
 %------- /TREBLE -------
 
 %------- BASS -------
@@ -196,4 +214,24 @@ pianoBassJ = {
     bf4 a g f | % m39
   }
 }
+
+pianoBassK = {
+  \clef bass
+  \relative c' {
+    g1 | % m40
+    f1 | % m41
+    c'4 bf4 a b | % m42
+    a2 g2 | % m43
+  }
+}
+
+%{pianoBassL = {
+  \clef bass
+  \relative c' {
+     | % m44
+     | % m45
+     | % m46
+     | % m47
+  }
+}%}
 %------- /BASS -------
