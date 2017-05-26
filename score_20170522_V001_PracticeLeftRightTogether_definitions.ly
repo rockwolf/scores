@@ -71,9 +71,27 @@ pianoTrebleG = {
 pianoTrebleH = {
   \relative c' {
     c4 d e fs | % m28
-    g4 fs f d | % m29
+    g4 fs fs d | % m29
     e1 | % m30
     g1 | % m31
+  }
+}
+
+pianoTrebleI = {
+  \relative c' {
+    e4 f e d | % m32
+    c4 f e d | % m33
+    e1 | % m34
+    f2 c2 | % m35
+  }
+}
+
+pianoTrebleJ = {
+  \relative c' {
+    e4 c d e | % m36
+    g4 f e f | % m37
+    e1 | % m38
+    f1 | % m39
   }
 }
 %------- /TREBLE -------
@@ -156,6 +174,26 @@ pianoBassH = {
     b1 | % m29
     c4 b b a | % m30
     b4 a g2 | % m31
+  }
+}
+
+pianoBassI = {
+  \clef bass
+  \relative c' {
+    bf1 | % m32
+    a1 | % m33
+    c4 bf g b | % m34
+    bf4 a g f | % m35
+  }
+}
+
+pianoBassJ = {
+  \clef bass
+  \relative c' {
+    g2 bf2 | % m36
+    a1 | % m37
+    c4 bf a g | % m38
+    bf4 a g f | % m39
   }
 }
 %------- /BASS -------

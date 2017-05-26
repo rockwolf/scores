@@ -40,6 +40,8 @@ global = {
        \pianoTrebleF
        \pianoTrebleG
        \pianoTrebleH
+       \pianoTrebleI
+       \pianoTrebleJ
     }
     \new Staff {
       \global
@@ -51,6 +53,8 @@ global = {
       \pianoBassF
       \pianoBassG
       \pianoBassH
+      \pianoBassI
+      \pianoBassJ
     }
   >>
   \layout {
