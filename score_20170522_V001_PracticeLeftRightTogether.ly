@@ -39,7 +39,7 @@ global = {
        \pianoTrebleE
        \pianoTrebleF
        \pianoTrebleG
-       %{\pianoTrebleH%}
+       \pianoTrebleH
     }
     \new Staff {
       \global
@@ -50,7 +50,7 @@ global = {
       \pianoBassE
       \pianoBassF
       \pianoBassG
-      %{\pianoBassH%}
+      \pianoBassH
     }
   >>
   \layout {

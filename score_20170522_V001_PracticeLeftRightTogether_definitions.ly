@@ -61,19 +61,19 @@ pianoTrebleF = {
 
 pianoTrebleG = {
   \relative c' {
-    c'4 bf a g | % m24
-    bf4 a g f | % m25
-    r2 c'2 | % m26
-    f4 g a bf | % m27
+    c4 d e fs | % m24
+    g4 fs e d | % m25
+    c4 d e fs | % m26
+    g1 | % m27
   }
 }
 
 pianoTrebleH = {
   \relative c' {
-    c'4 b,es a b | % m28
-    b,f4 a g f | % m29
-    r2 c'2 | % m30
-    b,f4 a g2 | % m31
+    c4 d e fs | % m28
+    g4 fs f d | % m29
+    e1 | % m30
+    g1 | % m31
   }
 }
 %------- /TREBLE -------
@@ -143,19 +143,19 @@ pianoBassG = {
   \clef bass
   \relative c' {
     g1 | % m24
-    f1 | % m25
-    c4 bf,4 a b | % m26
-    a2 g2 | % m27
+    b1 | % m25
+    a1 | % m26
+    b4 a g fs | % m27
   }
 }
 
 pianoBassH = {
   \clef bass
   \relative c' {
-    c2 g2 | % m28
-    g2 c2 | % m29
-    c4 bf,4 a b | % m30
-    f1 | % m31
+    g1 | % m28
+    b1 | % m29
+    c4 b b a | % m30
+    b4 a g2 | % m31
   }
 }
 %------- /BASS -------
