@@ -104,14 +104,14 @@ pianoTrebleK = {
   }
 }
 
-%{pianoTrebleL = {
+pianoTrebleL = {
   \relative c' {
-     | % m44
-     | % m45
-     | % m46
-     | % m47
+    c'4 bf a bf | % m44
+    bf4 a g f | % m45
+    r2 c'2 | % m46
+    b4 a f2 | % m47, natural will be added with the b4, to cancel the flat
   }
-}%}
+}
 %------- /TREBLE -------
 
 %------- BASS -------
@@ -200,7 +200,7 @@ pianoBassI = {
   \relative c' {
     bf1 | % m32
     a1 | % m33
-    c4 bf g b | % m34
+    c4 bf g bf | % m34
     bf4 a g f | % m35
   }
 }
@@ -220,18 +220,19 @@ pianoBassK = {
   \relative c' {
     g1 | % m40
     f1 | % m41
-    c'4 bf4 a b | % m42
+    c'4 bf4 a bf | % m42
     a2 g2 | % m43
   }
 }
 
-%{pianoBassL = {
+pianoBassL = {
   \clef bass
   \relative c' {
-     | % m44
-     | % m45
-     | % m46
-     | % m47
+    g2 c2 | % m44
+    f,2 c'2 | % m45
+    c4 b4 a b | % m46, natural will be added to the b4, to cancel the flat TODO: figure out why the natural symbol only appears when used with a flat in the same measure | bflat  <natural>b|.
+                % Flats should be remembered through the entire staff.
+    g1 | % m47
   }
-}%}
+}
 %------- /BASS -------
